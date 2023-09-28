@@ -10,8 +10,9 @@ const firebaseConfig = {
   projectId: "simple-firebase-7711f",
   storageBucket: "simple-firebase-7711f.appspot.com",
   messagingSenderId: "274245126346",
-  appId: "1:274245126346:web:ee5ea7aca835a1231d8c33"
+  appId: "1:274245126346:web:ee5ea7aca835a1231d8c33",
 };
 
 // Initialize Firebase
 const app = initializeApp(firebaseConfig);
+export default app;
